@@ -4,6 +4,7 @@ public class DBConnection {
     private static DBConnection dbConnection;
 
     // Attribute goes here
+    private String type = "Multi-Threaded Lazy Method";
 
     private DBConnection(){ }
 
