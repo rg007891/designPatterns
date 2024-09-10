@@ -13,7 +13,7 @@ public class Employee {
             throw new RuntimeException("Age must be greater than 18");
         }
 
-        this.empCode = builder.getAge();
+        this.empCode = builder.getEmpCode();
         this.empName = builder.getEmpName();
         this.phone = builder.getPhone();
         this.age = builder.getAge();
